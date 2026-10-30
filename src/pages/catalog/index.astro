@@ -1,0 +1,115 @@
+---
+import Base from "../../layouts/Base.astro";
+import { loadCatalogIndex } from "../../lib/catalog";
+import { gradeInfo } from "../../lib/amazon";
+
+const index = await loadCatalogIndex(Astro.url.origin);
+if (!index) return new Response("名簿データを読み込めませんでした", { status: 500 });
+Astro.response.headers.set("Cache-Control", "public, max-age=3600");
+
+const fmt = new Intl.NumberFormat("ja-JP");
+const items = index.grades.map((p) => {
+	const info = gradeInfo(p.slug);
+	const first = p.years[0]?.[0];
+	const last = p.years.at(-1)?.[0];
+	return { ...p, maker: info?.scale ?? "", range: first === last ? `${first}` : `${first}〜${last}` };
+});
+---
+
+<Base title="全製品名簿" description={`KATOとTOMIXのNゲージ車両${fmt.format(index.total)}件を、新幹線・特急・機関車・私鉄などのカテゴリと年ごとにまとめた名簿。品番・発売年月つき。`}>
+	<header class="band intro">
+		<div class="frame">
+			<p class="eyebrow">All Products</p>
+			<h1 class="intro__title">全製品名簿</h1>
+			<p class="intro__lead">
+				KATOとTOMIXのNゲージ車両<strong>{fmt.format(index.total)}件</strong>を、カテゴリと年ごとに並べました。品番と発売の時期、TOMIXの製品は再生産の時期も分かります。解説付きの厳選製品には「厳選」の印が付いています。
+			</p>
+		</div>
+	</header>
+
+	<section class="band section" aria-label="カテゴリ一覧">
+		<div class="frame">
+			<ul class="pf-grid">
+				{
+					items.map((p) => (
+						<li>
+							<a href={`/catalog/${p.slug}`} class="pf">
+								<span class="pf__name">{p.label}</span>
+								<span class="pf__meta">
+									{p.maker && `${p.maker} · `}
+									{p.range}年
+								</span>
+								<span class="pf__count">
+									{fmt.format(p.count)}
+									<small>件</small>
+								</span>
+								<span class="pf__dl">KATO {fmt.format(p.kato ?? 0)} · TOMIX {fmt.format(p.tomix ?? 0)}{p.dl > 0 && ` · 限定品 ${fmt.format(p.dl)}`}</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+			<p class="source">
+				出典:TOMIXの製品はTOMIX公式サイトが公開している全製品の一覧、KATOの製品はKATO公式サイトの製品情報検索。{index.updated}時点で発売済みの車両を整理しました。TOMIXの年月は初めて発売された月です。KATOの年月は公式サイトの「製品出荷日」で、いちばん新しいロットの出荷日のため、再生産された製品は再生産の時期になっています(名簿では「出荷」と表示)。出荷日が載っていないKATOの製品は「年不明」にまとめています。線路・建物・パーツは載せていません。</p>
+		</div>
+	</section>
+</Base>
+
+<style>
+	.pf-grid {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+		gap: var(--spacing-3);
+	}
+
+	.pf {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-1);
+		height: 100%;
+		padding: var(--spacing-4) var(--spacing-5);
+		background: var(--color-surface);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-card);
+		color: var(--color-text);
+		text-decoration: none;
+		transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+	}
+
+	.pf:hover {
+		transform: translateY(-2px);
+	}
+
+	.pf__name {
+		font-size: var(--font-size-lg);
+		font-weight: 600;
+	}
+
+	.pf__meta,
+	.pf__dl {
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+	}
+
+	.pf__count {
+		margin-top: var(--spacing-2);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-2xl);
+		font-weight: 500;
+	}
+
+	.pf__count small {
+		margin-left: 0.15em;
+		font-family: var(--font-body);
+		font-size: var(--font-size-sm);
+		color: var(--color-muted);
+	}
+
+	.source {
+		margin-top: var(--spacing-8);
+		font-size: var(--font-size-xs);
+		line-height: 1.8;
+		color: var(--color-muted);
+	}
+</style>
