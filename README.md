@@ -53,6 +53,8 @@ npm run dev      # http://localhost:4321(ローカルの初期データは /_emd
 npm run deploy   # astro build && wrangler deploy(手動デプロイ)
 ```
 
+GitHub henry12-masa/ngauge の main への push で、Cloudflare Workers Builds が自動でビルド・デプロイする(プレビューのビルドは無効)。
+
 公開: Workers「ngauge-curation」+ D1「ngauge-curation」+ R2「ngauge-curation-media」+ KV「ngauge-curation-session」。
 
 `node_modules` は容量節約のため `game-curation\node_modules` へのジャンクション(依存は同じ)。
