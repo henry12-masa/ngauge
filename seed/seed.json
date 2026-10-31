@@ -15918,6 +15918,59 @@
 									"marks": []
 								}
 							]
+						},
+						{
+							"_type": "block",
+							"_key": "k97",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k91",
+									"href": "/kits/kato-24-ginga"
+								},
+								{
+									"_type": "link",
+									"_key": "k94",
+									"href": "/kits/tomix-24-naha"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k90",
+									"text": "東京〜大阪間の夜行急行「銀河」(",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k92",
+									"text": "『24系25形 寝台急行「銀河」9両セット』",
+									"marks": [
+										"k91"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k93",
+									"text": ")は、急行なのにブルートレインの客車で走り、最後までA寝台とB寝台だけの編成でした。関西と九州を結んだ",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k95",
+									"text": "『JR 24系25形特急寝台客車(なは)基本セット』",
+									"marks": [
+										"k94"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k96",
+									"text": "は、晩年に個室寝台や座席車をつないで走りました。",
+									"marks": []
+								}
+							]
 						}
 					]
 				},
@@ -15934,72 +15987,15 @@
 						"bluetrain"
 					]
 				}
-			}
-		],
-		"pages": [
+			},
 			{
-				"id": "about",
-				"slug": "about",
+				"id": "post-shinkansen-guide",
+				"slug": "shinkansen-guide",
 				"status": "published",
 				"data": {
-					"title": "このサイトについて",
+					"title": "新幹線を選ぶ:編成の長さと置き場所で考える",
+					"excerpt": "16両、10両、8両、6両。新幹線は製品ごとに編成の長さが大きく違います。置き場所と好みで選ぶための案内です。",
 					"content": [
-						{
-							"_type": "block",
-							"_key": "k91",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k90",
-									"text": "「連ね継ぐ」は、いま走らせたいNゲージの鉄道模型を、車種・鉄道会社・実車の年代で横断できるキュレーションサイトです。KATOとTOMIXの製品を中心に紹介しています。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k93",
-							"style": "h2",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k92",
-									"text": "編集方針",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k95",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k94",
-									"text": "点数やランキングはつけません。それぞれの製品に、どんな製品かを伝える「ひとこと紹介」と、いま走らせたい理由を伝える「キュレーターの一言」を添えています。推し度は「定番」「推し」「通好み」の3段階です。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k97",
-							"style": "h2",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k96",
-									"text": "年代の区切り",
-									"marks": []
-								}
-							]
-						},
 						{
 							"_type": "block",
 							"_key": "k99",
@@ -16009,7 +16005,7 @@
 								{
 									"_type": "span",
 									"_key": "k98",
-									"text": "年代は、製品の発売年ではなく、実車が登場した年で分けています。製品の発売年月は、製品ページと年表に載せています。",
+									"text": "新幹線は人気のカテゴリですが、製品によって編成の長さがまったく違います。フル編成で走らせたいなら、置き場所と線路の長さを考えて選ぶのがおすすめです。Nゲージの新幹線は、在来線より少し小さい1/160で作られています。",
 									"marks": []
 								}
 							]
@@ -16023,49 +16019,7 @@
 								{
 									"_type": "span",
 									"_key": "k9a",
-									"text": "全製品名簿と発売年月について",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k9d",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k9c",
-									"text": "全製品名簿は、次の2つの公式サイトの情報をもとにしています。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k9f",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k9e",
-									"text": "TOMIXの製品は、TOMIX公式サイトが公開している全製品の一覧(品番・商品名・発売月・再生産日)をもとにしています。年月は初めて発売された月です。再生産の予定や実績がある製品は、再生産の年月もあわせて載せています。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "k9h",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "k9g",
-									"text": "KATOの製品は、KATO公式サイトの製品情報検索に載っている「製品出荷日」をもとにしています。KATOの出荷日は、その品番のいちばん新しいロットの出荷日で、再生産された製品は再生産の日になっています。そのため、KATOの製品の年月は「初めて発売された月」とは限りません。名簿では「出荷」の印を付けて区別しています。出荷日が載っていない製品は「年不明」にまとめています。",
+									"text": "16両:東海道・山陽新幹線",
 									"marks": []
 								}
 							]
@@ -16074,12 +16028,51 @@
 							"_type": "block",
 							"_key": "k9j",
 							"style": "normal",
-							"markDefs": [],
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k9d",
+									"href": "/kits/tomix-n700s"
+								},
+								{
+									"_type": "link",
+									"_key": "k9g",
+									"href": "/kits/tomix-n700a"
+								}
+							],
 							"children": [
 								{
 									"_type": "span",
+									"_key": "k9c",
+									"text": "東海道新幹線の「のぞみ」は16両です。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k9e",
+									"text": "『JR N700-3000系(N700S)東海道・山陽新幹線基本セット』",
+									"marks": [
+										"k9d"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k9f",
+									"text": "や",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k9h",
+									"text": "『JR N700-1000系(N700A)東海道・山陽新幹線基本セット』",
+									"marks": [
+										"k9g"
+									]
+								},
+								{
+									"_type": "span",
 									"_key": "k9i",
-									"text": "どちらも、まだ発売されていない製品は載せていません。",
+									"text": "は、基本セットに増結セットを足して16両にしていきます。長い編成が駅を出ていく姿は迫力がありますが、置き場所と大きめの線路の輪が必要です。",
 									"marks": []
 								}
 							]
@@ -16093,6 +16086,1687 @@
 								{
 									"_type": "span",
 									"_key": "k9k",
+									"text": "10両・12両:東北・北陸新幹線",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k9z",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k9n",
+									"href": "/kits/tomix-e5-hayabusa"
+								},
+								{
+									"_type": "link",
+									"_key": "k9q",
+									"href": "/kits/kato-e7-kagayaki"
+								},
+								{
+									"_type": "link",
+									"_key": "k9t",
+									"href": "/kits/kato-e8-tsubasa"
+								},
+								{
+									"_type": "link",
+									"_key": "k9w",
+									"href": "/kits/kato-e4-max"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k9m",
+									"text": "東北新幹線の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k9o",
+									"text": "『JR E5系東北・北海道新幹線(はやぶさ)基本セット』",
+									"marks": [
+										"k9n"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k9p",
+									"text": "は10両、北陸新幹線の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k9r",
+									"text": "『E7系 北陸新幹線「かがやき」基本セット(3両)』",
+									"marks": [
+										"k9q"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k9s",
+									"text": "は12両です。E5系はE6系「こまち」と、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k9u",
+									"text": "『E8系 山形新幹線「つばさ」基本セット(3両)』",
+									"marks": [
+										"k9t"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k9v",
+									"text": "のE8系はE5系「やまびこ」と、実車のように併結して走らせられます。全部が2階建ての",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k9x",
+									"text": "『E4系新幹線<Max> 8両セット』",
+									"marks": [
+										"k9w"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k9y",
+									"text": "は8両で、2編成をつなぐと16両になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ka1",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ka0",
+									"text": "8両・6両:九州・山陽の新幹線",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kac",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "ka3",
+									"href": "/kits/tomix-n700-8000"
+								},
+								{
+									"_type": "link",
+									"_key": "ka6",
+									"href": "/kits/kato-n700-6000-kodama"
+								},
+								{
+									"_type": "link",
+									"_key": "ka9",
+									"href": "/kits/tomix-n700s-kamome"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ka2",
+									"text": "場所が限られているなら、短い編成がおすすめです。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ka4",
+									"text": "『JR N700-8000系山陽・九州新幹線基本セット』",
+									"marks": [
+										"ka3"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "ka5",
+									"text": "は8両、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ka7",
+									"text": "『N700系6000番台新幹線「こだま」8両セット』",
+									"marks": [
+										"ka6"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "ka8",
+									"text": "は16両のN700系を8両に縮めた山陽新幹線の「こだま」、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kaa",
+									"text": "『西九州新幹線N700S-8000系(N700Sかもめ)セット』",
+									"marks": [
+										"ka9"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kab",
+									"text": "は6両で編成が完結します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kae",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kad",
+									"text": "見て楽しい1編成",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kaj",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kag",
+									"href": "/kits/tomix-doctor-yellow"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kaf",
+									"text": "検測車の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kah",
+									"text": "『JR 923形新幹線電気軌道総合試験車(ドクターイエロー)基本セット』",
+									"marks": [
+										"kag"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kai",
+									"text": "は7両で、黄色い車体が営業列車の新幹線と並ぶとよく映えます。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": [
+						"beginner"
+					]
+				}
+			},
+			{
+				"id": "post-tilting-trains",
+				"slug": "tilting-trains",
+				"status": "published",
+				"data": {
+					"title": "カーブで傾く特急:振り子・車体傾斜を模型で楽しむ",
+					"excerpt": "381系、8000系、883系、885系。カーブで車体が内側に傾く特急を、KATOの車体振り子機構で再現した製品を集めました。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "kal",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kak",
+									"text": "カーブの多い路線では、遠心力を和らげて速く走るために、車体を内側に傾ける特急が使われてきました。KATOの製品には、この動きを模型で再現する「車体振り子機構」を積んだものがあります。曲線の線路の上で走らせると、車体が内側にすっと傾きます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kan",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kam",
+									"text": "国鉄でただ1つの振り子電車",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kar",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kao",
+									"href": "/kits/kato-381-shinano"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kap",
+									"text": "『381系「しなの」(JR仕様) 6両基本セット』",
+									"marks": [
+										"kao"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kaq",
+									"text": "の381系は、国鉄の形式でただ1つの営業用の振り子式電車です。カーブの多い中央西線の「しなの」のために作られました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kat",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kas",
+									"text": "JR四国と九州の振り子特急",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kb4",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kav",
+									"href": "/kits/kato-jrs-8000"
+								},
+								{
+									"_type": "link",
+									"_key": "kay",
+									"href": "/kits/kato-883-sonic-renewal"
+								},
+								{
+									"_type": "link",
+									"_key": "kb1",
+									"href": "/kits/kato-885-around"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kau",
+									"text": "瀬戸内を走る",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kaw",
+									"text": "『JR四国8000系 特急「しおかぜ・いしづち」5両セット』",
+									"marks": [
+										"kav"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kax",
+									"text": "は、制御付き自然振り子方式を採用したJR四国の特急です。九州の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kaz",
+									"text": "『883系「ソニック」リニューアル車(1次車) 基本セット(4両)』",
+									"marks": [
+										"kay"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kb0",
+									"text": "は、JR九州で初めての振り子式車両で、日本初の営業用の交流振り子式車両です。白い車体の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kb2",
+									"text": "『885系(2次車)<アラウンド・ザ・九州> 6両セット』",
+									"marks": [
+										"kb1"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kb3",
+									"text": "も振り子式です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kb6",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kb5",
+									"text": "新幹線の車体傾斜",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kbe",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kb8",
+									"href": "/kits/kato-h5-hayabusa"
+								},
+								{
+									"_type": "link",
+									"_key": "kbb",
+									"href": "/kits/kato-n700-6000-kodama"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kb7",
+									"text": "新幹線にも車体を傾けるものがあります。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kb9",
+									"text": "『H5系北海道新幹線「はやぶさ」6両基本セット』",
+									"marks": [
+										"kb8"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kba",
+									"text": "や",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kbc",
+									"text": "『N700系6000番台新幹線「こだま」8両セット』",
+									"marks": [
+										"kbb"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kbd",
+									"text": "のKATOの製品は、車体傾斜機構を備えています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kbg",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kbf",
+									"text": "走らせ方のこつ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kbi",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kbh",
+									"text": "傾きがよく見えるのは、半径の小さい曲線を通るときです。カーブの手前の直線から、ゆっくり走らせて観察してみてください。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": []
+				}
+			},
+			{
+				"id": "post-jnr-colors",
+				"slug": "jnr-colors",
+				"status": "published",
+				"data": {
+					"title": "国鉄特急色をそろえる:クリームと赤の特急たち",
+					"excerpt": "485系、583系、189系、キハ183系。クリームに赤の「国鉄特急色」の車両を集めるための案内です。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "kbk",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kbj",
+									"text": "国鉄の特急は、クリームの地に赤の帯の「国鉄特急色」で全国を走りました。電車も気動車も同じ色で統一され、並べると国鉄時代の駅の風景がよみがえります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kbm",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kbl",
+									"text": "電車の特急",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kbt",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kbn",
+									"href": "/kits/tomix-485-kuha481-200"
+								},
+								{
+									"_type": "link",
+									"_key": "kbq",
+									"href": "/kits/tomix-485-1500-ishikari"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kbo",
+									"text": "『国鉄 485系特急電車(クハ481-200)基本セット』",
+									"marks": [
+										"kbn"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kbp",
+									"text": "の485系は、交流・直流の両方を走れる特急形電車として、東北・北陸・九州など全国で走りました。北海道向けに寒さと雪に備えた",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kbr",
+									"text": "『国鉄 485-1500系特急電車(いしかり)セット』",
+									"marks": [
+										"kbq"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kbs",
+									"text": "のような変わり種もあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kc1",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kbv",
+									"href": "/kits/tomix-583-aomori"
+								},
+								{
+									"_type": "link",
+									"_key": "kby",
+									"href": "/kits/tomix-189-asama"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kbu",
+									"text": "夜は寝台、昼は座席の特急として走った",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kbw",
+									"text": "『JR 583系特急電車(青森運転所)基本セット』",
+									"marks": [
+										"kbv"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kbx",
+									"text": "、碓氷峠を越えた",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kbz",
+									"text": "『JR 189系特急電車(長野総合車両所・N109編成・あさま)基本セット』",
+									"marks": [
+										"kby"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kc0",
+									"text": "も、同じ国鉄特急の仲間です(189系の製品は国鉄特急色ではなく、JR時代の「あさま」の塗装です)。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kc3",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kc2",
+									"text": "気動車の特急",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kc8",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kc5",
+									"href": "/kits/tomix-kiha183-0"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kc4",
+									"text": "電化されていない路線では、気動車の特急が走りました。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kc6",
+									"text": "『国鉄 キハ183-0系特急ディーゼルカー基本セット』",
+									"marks": [
+										"kc5"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kc7",
+									"text": "は、北海道の特急のために作られたキハ183系の0番台を、国鉄特急色で再現しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kca",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kc9",
+									"text": "急行の色",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kcf",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kcc",
+									"href": "/kits/tomix-kiha58-tokiwa"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kcb",
+									"text": "特急より格下の急行は、クリームと赤の別の配色でした。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kcd",
+									"text": "『国鉄 キハ58系急行ディーゼルカー(ときわ)セット』",
+									"marks": [
+										"kcc"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kce",
+									"text": "のキハ58系は、全国の急行列車で走った気動車です。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"history"
+					],
+					"tag": []
+				}
+			},
+			{
+				"id": "post-commuter-trains",
+				"slug": "commuter-trains",
+				"status": "published",
+				"data": {
+					"title": "自分の路線を走らせる:通勤・近郊電車の選び方",
+					"excerpt": "山手線、中央線、横浜線、新快速、千代田線。毎日乗っている電車をNゲージで走らせるための案内です。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "kch",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kcg",
+									"text": "毎日乗っている通勤電車は、Nゲージでいちばん親しみの湧く題材です。線路の輪の上を走らせるだけで、机の上が自分の街になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kcj",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kci",
+									"text": "首都圏の電車",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kcu",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kcl",
+									"href": "/kits/tomix-e235-yamanote"
+								},
+								{
+									"_type": "link",
+									"_key": "kco",
+									"href": "/kits/kato-e233-chuo-green"
+								},
+								{
+									"_type": "link",
+									"_key": "kcr",
+									"href": "/kits/kato-e233-6000-yokohama"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kck",
+									"text": "山手線の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kcm",
+									"text": "『JR E235-0系電車(後期型・山手線)基本セット』",
+									"marks": [
+										"kcl"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kcn",
+									"text": "、中央線快速の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kcp",
+									"text": "『E233系中央線(T編成・グリーン車組込)基本セット(3両)』",
+									"marks": [
+										"kco"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kcq",
+									"text": "、横浜線の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kcs",
+									"text": "『E233系6000番台 横浜線 8両セット』",
+									"marks": [
+										"kcr"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kct",
+									"text": "など、いま走っている電車の製品がそろっています。E233系の横浜線は8両が1セットで、買ってすぐ実車と同じ編成で走らせられます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kcz",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kcw",
+									"href": "/kits/kato-tokyometro-16000"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kcv",
+									"text": "地下鉄では、千代田線の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kcx",
+									"text": "『東京メトロ 千代田線16000系(1次車) 6両基本セット』",
+									"marks": [
+										"kcw"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kcy",
+									"text": "があります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kd1",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kd0",
+									"text": "懐かしい通勤電車",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kdc",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kd3",
+									"href": "/kits/tomix-103-emerald"
+								},
+								{
+									"_type": "link",
+									"_key": "kd6",
+									"href": "/kits/tomix-201-chuo"
+								},
+								{
+									"_type": "link",
+									"_key": "kd9",
+									"href": "/kits/tomix-72-73-ome"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kd2",
+									"text": "昔の路線の色を再現するなら、国鉄の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kd4",
+									"text": "『国鉄 103系通勤電車(初期型非冷房車・エメラルドグリーン)基本セットA』",
+									"marks": [
+										"kd3"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kd5",
+									"text": "、オレンジ色の中央線の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kd7",
+									"text": "『JR 201系通勤電車(中央線・貫通編成)セット』",
+									"marks": [
+										"kd6"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kd8",
+									"text": "、青梅線の旧形国電",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kda",
+									"text": "『国鉄 72・73形通勤電車(青梅線)セット』",
+									"marks": [
+										"kd9"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kdb",
+									"text": "があります。103系は路線ごとに色を変えて走ったので、色違いの製品で別の路線を再現できます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kde",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kdd",
+									"text": "京阪神の新快速",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kdp",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kdg",
+									"href": "/kits/tomix-221"
+								},
+								{
+									"_type": "link",
+									"_key": "kdj",
+									"href": "/kits/tomix-223-2000"
+								},
+								{
+									"_type": "link",
+									"_key": "kdm",
+									"href": "/kits/kato-225-shinkaisoku"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kdf",
+									"text": "関西なら、新快速の歴史を3世代でたどれます。JR西日本の始まりの電車",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kdh",
+									"text": "『JR 221系近郊電車基本セットA』",
+									"marks": [
+										"kdg"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kdi",
+									"text": "、長く主力だった",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kdk",
+									"text": "『JR 223-2000系近郊電車基本セット』",
+									"marks": [
+										"kdj"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kdl",
+									"text": "、いまの",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kdn",
+									"text": "『225系100番台(3次車)<新快速> 8両セット』",
+									"marks": [
+										"kdm"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kdo",
+									"text": "です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kdr",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kdq",
+									"text": "近郊電車",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kdw",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kdt",
+									"href": "/kits/kato-113-2000-shonan"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kds",
+									"text": "オレンジと緑の湘南色の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kdu",
+									"text": "『113系2000番台 湘南色(JR仕様) 7両基本セット』",
+									"marks": [
+										"kdt"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kdv",
+									"text": "は、2階建てのグリーン車を組み込んだJRの東海道線の姿です。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": [
+						"beginner"
+					]
+				}
+			},
+			{
+				"id": "post-sl-trains",
+				"slug": "sl-trains",
+				"status": "published",
+				"data": {
+					"title": "SL列車を仕立てる:蒸気機関車と客車の組み合わせ",
+					"excerpt": "C57 180とばんえつ物語、C58 239、東武のC11 325。いまも走るSL列車と、蒸気機関車の時代の列車の組み方です。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "kdy",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kdx",
+									"text": "蒸気機関車は、客車と組み合わせて初めて列車になります。いまも走る観光のSL列車なら、機関車と専用の客車のセットがあり、組み合わせを考えやすいのが魅力です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ke0",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kdz",
+									"text": "「SLばんえつ物語」",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ke8",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "ke2",
+									"href": "/kits/tomix-c57-180"
+								},
+								{
+									"_type": "link",
+									"_key": "ke5",
+									"href": "/kits/tomix-12-banetsu"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ke1",
+									"text": "磐越西線の「SLばんえつ物語」は、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ke3",
+									"text": "『JR C57形蒸気機関車(180号機)』",
+									"marks": [
+										"ke2"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "ke4",
+									"text": "のC57 180が",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ke6",
+									"text": "『JR 12系客車(ばんえつ物語・オコジョ展望車)セット』",
+									"marks": [
+										"ke5"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "ke7",
+									"text": "の12系客車を引く列車です。どちらも2020年代の姿で作られていて、組み合わせるとそのまま今の列車になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kea",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ke9",
+									"text": "東北と関東のSL",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kei",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kec",
+									"href": "/kits/tomix-c58-239"
+								},
+								{
+									"_type": "link",
+									"_key": "kef",
+									"href": "/kits/tomix-tobu-c11-325"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "keb",
+									"text": "岩手県の釜石線で「SL銀河」を引いた",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ked",
+									"text": "『JR C58形蒸気機関車(239号機)』",
+									"marks": [
+										"kec"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kee",
+									"text": "は、2014年の復活当初の姿です。東武鉄道で「SL大樹」を引く",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "keg",
+									"text": "『東武鉄道 C11形蒸気機関車(325号機)』",
+									"marks": [
+										"kef"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "keh",
+									"text": "は、小型のタンク式の蒸気機関車で、小さめの曲線でも走らせられます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kek",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kej",
+									"text": "北海道の蒸気機関車の時代",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kep",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kem",
+									"href": "/kits/tomix-c55-hokkaido"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kel",
+									"text": "さらにさかのぼるなら、北海道の宗谷本線などで最後まで客車を引いた",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ken",
+									"text": "『国鉄 C55形蒸気機関車(3次形・北海道仕様)』",
+									"marks": [
+										"kem"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "keo",
+									"text": "があります。旧形客車と組み合わせると、蒸気機関車の時代の列車になります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ker",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "keq",
+									"text": "走らせる前に",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ket",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kes",
+									"text": "蒸気機関車の製品は、走れる曲線の半径が決まっています。C57やC58、C55のTOMIXの製品は半径280mm以上、C11は243mm以上です。線路の輪の大きさを確かめてから走らせましょう。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": []
+				}
+			},
+			{
+				"id": "post-airport-express",
+				"slug": "airport-express",
+				"status": "published",
+				"data": {
+					"title": "空港へ向かう特急:成田エクスプレスとスカイライナー",
+					"excerpt": "成田空港へ向かうJRと京成の特急を並べて楽しむ案内です。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "kev",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "keu",
+									"text": "成田空港へは、JRの「成田エクスプレス」と京成の「スカイライナー」の2つの特急が走っています。Nゲージでも、この2つを並べて楽しめます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kex",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kew",
+									"text": "JR:成田エクスプレス",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kf1",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "key",
+									"href": "/kits/tomix-e259-nex"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kez",
+									"text": "『JR E259系特急電車(成田エクスプレス・新塗装)基本セット』",
+									"marks": [
+										"key"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kf0",
+									"text": "は、253系の後を継いだE259系の「成田エクスプレス」です。先頭車には、貫通扉が開いた姿を再現できる別パーツと幌が付いていて、2編成をつないだ姿も再現できます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kf3",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kf2",
+									"text": "京成:スカイライナー",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kf7",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kf4",
+									"href": "/kits/tomix-keisei-ae"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kf5",
+									"text": "『京成電鉄 AE形(スカイライナー)セット』",
+									"marks": [
+										"kf4"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kf6",
+									"text": "は、京成電鉄のAE形「スカイライナー」の8両を1セットにした製品です。箱を開けてすぐ、実車と同じ長さの編成で走らせられます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kf9",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kf8",
+									"text": "並べて走らせる",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfb",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfa",
+									"text": "空港アクセスの特急は、どちらも空港への旅のはじまりを思わせる車両です。複線の線路で2本を並べて走らせると、空港へ向かう線路の風景になります。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": []
+				}
+			}
+		],
+		"pages": [
+			{
+				"id": "about",
+				"slug": "about",
+				"status": "published",
+				"data": {
+					"title": "このサイトについて",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "kfd",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfc",
+									"text": "「連ね継ぐ」は、いま走らせたいNゲージの鉄道模型を、車種・鉄道会社・実車の年代で横断できるキュレーションサイトです。KATOとTOMIXの製品を中心に紹介しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kff",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfe",
+									"text": "編集方針",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfh",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfg",
+									"text": "点数やランキングはつけません。それぞれの製品に、どんな製品かを伝える「ひとこと紹介」と、いま走らせたい理由を伝える「キュレーターの一言」を添えています。推し度は「定番」「推し」「通好み」の3段階です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfj",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfi",
+									"text": "年代の区切り",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfl",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfk",
+									"text": "年代は、製品の発売年ではなく、実車が登場した年で分けています。製品の発売年月は、製品ページと年表に載せています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfn",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfm",
+									"text": "全製品名簿と発売年月について",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfp",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfo",
+									"text": "全製品名簿は、次の2つの公式サイトの情報をもとにしています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfr",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfq",
+									"text": "TOMIXの製品は、TOMIX公式サイトが公開している全製品の一覧(品番・商品名・発売月・再生産日)をもとにしています。年月は初めて発売された月です。再生産の予定や実績がある製品は、再生産の年月もあわせて載せています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kft",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfs",
+									"text": "KATOの製品は、KATO公式サイトの製品情報検索に載っている「製品出荷日」をもとにしています。KATOの出荷日は、その品番のいちばん新しいロットの出荷日で、再生産された製品は再生産の日になっています。そのため、KATOの製品の年月は「初めて発売された月」とは限りません。名簿では「出荷」の印を付けて区別しています。出荷日が載っていない製品は「年不明」にまとめています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfv",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfu",
+									"text": "どちらも、まだ発売されていない製品は載せていません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kfx",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kfw",
 									"text": "解説について",
 									"marks": []
 								}
@@ -16100,13 +17774,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k9n",
+							"_key": "kfz",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k9m",
+									"_key": "kfy",
 									"text": "製品の解説は、KATO・TOMIXの公式サイトの製品ページの内容と、日本語版ウィキペディアの各車両の記事をもとに、当サイトでまとめ直したものです。",
 									"marks": []
 								}
@@ -16114,13 +17788,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k9p",
+							"_key": "kg1",
 							"style": "h2",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k9o",
+									"_key": "kg0",
 									"text": "情報について",
 									"marks": []
 								}
@@ -16128,13 +17802,13 @@
 						},
 						{
 							"_type": "block",
-							"_key": "k9r",
+							"_key": "kg3",
 							"style": "normal",
 							"markDefs": [],
 							"children": [
 								{
 									"_type": "span",
-									"_key": "k9q",
+									"_key": "kg2",
 									"text": "誤りに気づいたら、ぜひ教えてください。当サイトはファンによる非公式のサイトで、株式会社関水金属(KATO)、株式会社トミーテック(TOMIX)、各鉄道会社とは関係ありません。",
 									"marks": []
 								}
