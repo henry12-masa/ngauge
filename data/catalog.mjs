@@ -4,10 +4,11 @@ import train from "./kits-train.mjs";
 import loco from "./kits-loco.mjs";
 import wave2 from "./kits-wave2.mjs";
 import wave3 from "./kits-wave3.mjs";
+import wave4 from "./kits-wave4.mjs";
 import updates from "./kits-updates.mjs";
 import { loadRoster } from "./catalog/roster.mjs";
 
-export const games = [...train, ...loco, ...wave2, ...wave3, ...updates].sort(
+export const games = [...train, ...loco, ...wave2, ...wave3, ...wave4, ...updates].sort(
 	(a, b) => a.released.localeCompare(b.released) || a.title.localeCompare(b.title, "ja"),
 );
 
