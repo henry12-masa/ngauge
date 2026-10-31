@@ -59,6 +59,6 @@ GitHub henry12-masa/ngauge の main への push で、Cloudflare Workers Builds 
 
 `node_modules` は容量節約のため `game-curation\node_modules` へのジャンクション(依存は同じ)。
 
-`src/layouts/Base.astro` の `google-site-verification` は Search Console の所有権確認用なので消さないでください。`src/lib/ads.ts` の広告ユニットは操り継ぐのものを仮に入れてあるので、公開前にこのサイト専用のユニットに替える。
+`src/layouts/Base.astro` の `google-site-verification` は Search Console の所有権確認用なので消さないでください。`src/lib/ads.ts` の広告ユニットはこのサイト専用(サイド縦長 9372005165・記事内 3183047513)。
 
 当サイトはファンによる非公式のサイトで、KATO(関水金属)・TOMIX(トミーテック)・各鉄道会社とは関係ありません。

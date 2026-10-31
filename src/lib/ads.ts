@@ -2,9 +2,9 @@
 export const AD_CLIENT = "ca-pub-8398161859137802";
 export const AD_SLOTS = {
 	/** ディスプレイ・縦長レスポンシブ:記事のサイドバー、作品ページの本文横 */
-	side: "8796991375",
+	side: "9372005165",
 	/** 記事内広告:本文の途中 */
-	article: "3701024472",
+	article: "3183047513",
 } as const;
 
 type Block = { _type?: string; style?: string };
