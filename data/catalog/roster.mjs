@@ -109,7 +109,9 @@ function fromKato() {
 let cache;
 export function loadRoster() {
 	if (cache) return cache;
-	const now = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 7);
+	// 載せるのは先月発売分まで(今月の分は、公式の一覧に予定の品が混じるので月が明けてから載せる)
+	const jst = new Date(Date.now() + 9 * 3600e3);
+	const lastMonth = new Date(Date.UTC(jst.getUTCFullYear(), jst.getUTCMonth() - 1, 1)).toISOString().slice(0, 7);
 	const out = [];
 	const seen = new Set();
 	for (const r of [...fromTomix(), ...fromKato(), ...read("additions.json").map((a) => ({ ship: 0, re: "", l: 0, ...a }))]) {
@@ -118,7 +120,7 @@ export function loadRoster() {
 		seen.add(key);
 		// まだ発売されていない製品は載せない(公式の一覧には予定の月も載る)。
 		// KATOの「予定」には再生産待ちの既存品も混じるが、初めて出る製品と見分けられないので外す
-		if (r.d === "future" || (r.d && r.d > now)) continue;
+		if (r.d === "future" || (r.d && r.d > lastMonth)) continue;
 		out.push(r);
 	}
 	cache = out;
